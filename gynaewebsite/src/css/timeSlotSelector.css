@@ -1,0 +1,72 @@
+.time-slot-container {
+    overflow-y: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+
+    /* Hide scrollbar by default */
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.time-slot-container::-webkit-scrollbar {
+  width: 0px; /* For WebKit browsers */
+}
+
+/* Show scrollbar only when scrolling */
+.time-slot-container:active::-webkit-scrollbar {
+  width: 8px;
+}
+
+.time-slot-container:active::-webkit-scrollbar-thumb {
+  background-color: #94c045;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+.time-slot-container:active::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 10px;
+}
+
+/* Firefox: Show scrollbar on scroll or hover */
+.time-slot-container:hover {
+  scrollbar-width: thin;
+  scrollbar-color: #94c045 white;
+}
+
+.time-slot-container:active {
+  scrollbar-width: thin;
+  scrollbar-color: #94c045 white;
+}
+
+  
+.time-slot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    background-color: white;
+    border: 1px solid #94c045;
+    color: #1c1f18;
+    cursor: pointer;
+    border-radius: 12px; /* Curved borders */
+    font-size: 0.9em; /* Smaller font size */
+    transition: background-color 0.3s;
+    min-width: 80px;
+}
+  
+.time-slot:hover {
+    background-color: #94c045;
+    color: white;
+}
+
+.selected {
+    background-color: #1c1f18;
+    color: white;
+}
