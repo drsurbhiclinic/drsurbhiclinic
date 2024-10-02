@@ -1,5 +1,5 @@
 import ServicesList from './ServicesList'
-import {SERVICES} from "../Constants";
+import SERVICES from "../Constants";
 
 function ServicesPage() {
     return (
