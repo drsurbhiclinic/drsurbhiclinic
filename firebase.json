@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "drsurbhiclinic",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",
