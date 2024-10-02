@@ -19,7 +19,7 @@ function Home() {
                 <div className="row">
 
                 <div className="col-lg-6 align-self-baseline position-relative">
-                    <img src="public/assets/img/drsurbhi.jpeg" className="img-fluid" alt=""/>
+                    <img src="assets/img/drsurbhi.jpeg" className="img-fluid" alt=""/>
                 </div>
 
                 <div className="col-lg-6 pt-3 pt-lg-0 content">
