@@ -7,7 +7,7 @@ function Appointment() {
 
     const[selectedClinicLocation, setSelectedClinicLocation] = useState('Palam');
     const[selectedTimeSlot, setSelectedTimeSlot] = useState('');
-    const[selectedDate, setSelectedDate] = useState(new Date);
+    const[selectedDate, setSelectedDate] = useState(new Date());
     const[patientName, setPatientName] = useState("");
     const[errors, setErrors] = useState({'patientName': "", 'timeSlot': ""})
 
@@ -32,7 +32,7 @@ function Appointment() {
 
     const handleNameChange = (e) => {
         setPatientName(e.target.value);
-        if(e.target.value != "") {
+        if(e.target.value !== "") {
             setErrors({
                 ...errors,
                 patientName: ""
@@ -105,7 +105,7 @@ function Appointment() {
                             <div className="col-lg-12 d-flex justify-content-center aos-init aos-animate" data-aos="fade-up">
                                 <ul id="portfolio-flters">
                                     {Object.keys(clinicTimeSlots).map((clinicLocation) => {
-                                        return <li key={clinicLocation} className={clinicLocation == selectedClinicLocation? "filter-active": ""} onClick={ () => handleClinicChange(clinicLocation)}>{clinicLocation} clinic</li>
+                                        return <li key={clinicLocation} className={clinicLocation === selectedClinicLocation? "filter-active": ""} onClick={ () => handleClinicChange(clinicLocation)}>{clinicLocation} clinic</li>
                                     })}
                                 </ul>
                             </div>

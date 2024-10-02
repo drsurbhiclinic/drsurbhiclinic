@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-
 function Navbar() {
     const title = window.location.pathname
     return (

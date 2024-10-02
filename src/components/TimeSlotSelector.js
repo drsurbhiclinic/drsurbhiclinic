@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import '../css/timeSlotSelector.css';
 
 function TimeSlotSelector({timeSlots, selectedTimeSlot, setSelectedTimeSlot, errors, setErrors}) {
@@ -26,7 +26,7 @@ function TimeSlotSelector({timeSlots, selectedTimeSlot, setSelectedTimeSlot, err
       {timeSlots.map((slot) => (
         <div
           key={slot}
-          className={`time-slot ${selectedTimeSlot == slot ? 'selected' : ''}`}
+          className={`time-slot ${selectedTimeSlot === slot ? 'selected' : ''}`}
           onClick={() => handleSlotClick(slot)}
         >
           {slot}

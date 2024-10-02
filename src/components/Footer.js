@@ -13,10 +13,10 @@ function Footer() {
           <div className="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Patient Stories</a></li>
+              <li><a href="/home">Home</a></li>
+              <li><a href="/about">About us</a></li>
+              <li><a href="/services">Services</a></li>
+              <li><a href="/stories">Patient Stories</a></li>
             </ul>
           </div>
 
