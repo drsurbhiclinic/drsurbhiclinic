@@ -17,7 +17,7 @@ function Stories() {
         </div>
         <div className="container">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="/home">Home</a></li>
             <li>Stories</li>
           </ol>
         </div>

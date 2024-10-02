@@ -19,7 +19,7 @@ function About() {
             </div>
             <div className="container">
                 <ol>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/home">Home</a></li>
                 <li>About</li>
                 </ol>
             </div>
@@ -33,7 +33,7 @@ function About() {
                 <div className="row">
 
                 <div className="col-lg-6 video-box align-self-baseline position-relative">
-                    <img src="public/assets/img/drsurbhi.jpeg" className="img-fluid" alt=""/>
+                    <img src="assets/img/drsurbhi.jpeg" className="img-fluid" alt=""/>
                 </div>
 
                 <div className="col-lg-6 pt-3 pt-lg-0 content">
