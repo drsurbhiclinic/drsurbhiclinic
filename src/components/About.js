@@ -19,7 +19,7 @@ function About() {
             </div>
             <div className="container">
                 <ol>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/home">Home</a></li>
                 <li>About</li>
                 </ol>
             </div>

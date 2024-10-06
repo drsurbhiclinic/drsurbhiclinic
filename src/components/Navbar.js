@@ -1,6 +1,14 @@
-import { useEffect, useState } from "react";
-
 function Navbar() {
+    /**
+     * Mobile nav toggle
+     */
+    const expandNavbar = (e) => {
+        var target = e.target
+        document.querySelector('#navbar').classList.toggle('navbar-mobile')
+        target.classList.toggle('bi-list')
+        target.classList.toggle('bi-x')
+    }
+
     const title = window.location.pathname
     return (
         <header id="header" className="fixed-top d-flex align-items-center">
@@ -17,7 +25,7 @@ function Navbar() {
                 <li><a className={ title === "/contact"? "active": ""}href="/contact">Contact Us</a></li>
                 <li><a className="getstarted" href="/about">Get Started</a></li>
                 </ul>
-                <i className="bi bi-list mobile-nav-toggle"></i>
+                <i className="bi bi-list mobile-nav-toggle" onClick={expandNavbar}></i>
             </nav>
             </div>
         </header>

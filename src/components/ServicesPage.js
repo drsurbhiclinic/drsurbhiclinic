@@ -1,5 +1,5 @@
 import ServicesList from './ServicesList'
-import SERVICES from "../Constants";
+import {SERVICES} from "../Constants";
 
 function ServicesPage() {
     return (
@@ -47,7 +47,7 @@ function ServicesPage() {
                     <div className="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
                     <div className="card" style={{ backgroundImage: 'url(assets/img/features-1.jpg)' }}>
                         <div className="card-body">
-                        <h5 className="card-title"><a href="#">Our Mission</a></h5>
+                        <h5 className="card-title">Our Mission</h5>
                         <p className="card-text">
                             To provide exceptional gynecological care that empowers women through every stage of life.                        </p>
                         {/* <div className="read-more">
@@ -59,7 +59,7 @@ function ServicesPage() {
                     <div className="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up">
                     <div className="card" style={{ backgroundImage: 'url(assets/img/features-2.jpg)' }}>
                         <div className="card-body">
-                        <h5 className="card-title"><a href="#">Our Planning</a></h5>
+                        <h5 className="card-title">Our Planning</h5>
                         <p className="card-text">
                         We believe in a holistic approach, integrating thorough planning, patient education, and expert medical intervention to achieve optimal health outcomes.
                         </p>
@@ -72,7 +72,7 @@ function ServicesPage() {
                     <div className="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="100">
                     <div className="card" style={{ backgroundImage: 'url(assets/img/features-3.jpg)' }}>
                         <div className="card-body">
-                        <h5 className="card-title"><a href="#">Our Vision</a></h5>
+                        <h5 className="card-title">Our Vision</h5>
                         <p className="card-text">
                         Create a healthcare environment where every woman feels heard, respected, and supported, ensuring that she receives the best possible care tailored to her unique needs.                        </p>
                         {/* <div className="read-more">
@@ -84,7 +84,7 @@ function ServicesPage() {
                     <div className="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="100">
                     <div className="card" style={{ backgroundImage: 'url(assets/img/features-4.jpg)' }}>
                         <div className="card-body">
-                        <h5 className="card-title"><a href="#">Our Care</a></h5>
+                        <h5 className="card-title">Our Care</h5>
                         <p className="card-text">
                         What sets Dr. Surbhi apart is her commitment to personalized, compassionate care combined with the latest medical advancements.                         
                         </p>

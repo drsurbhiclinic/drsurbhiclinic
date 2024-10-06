@@ -14,7 +14,7 @@ function Contact(){
             </div>
             <div className="container">
                 <ol>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/home">Home</a></li>
                 <li>Contact</li>
                 </ol>
             </div>
@@ -26,9 +26,9 @@ function Contact(){
 
                 <div>
                     <div className="row">
-                        <iframe style={{ border: '0', width: '50%', height: '270px' }} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.5728197527483!2d77.08315667505066!3d28.582587675692054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1b695126e6f1%3A0xe706c69e2b5c62da!2sDr%20Surbhi%20Rustagi!5e0!3m2!1sen!2sin!4v1721935800917!5m2!1sen!2sin" frameborder="0" allowFullScreen></iframe>
+                        <iframe style={{ border: '0', width: '50%', height: '270px' }} title="Location1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.5728197527483!2d77.08315667505066!3d28.582587675692054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1b695126e6f1%3A0xe706c69e2b5c62da!2sDr%20Surbhi%20Rustagi!5e0!3m2!1sen!2sin!4v1721935800917!5m2!1sen!2sin" frameborder="0" allowFullScreen></iframe>
                 
-                        <iframe style={{ border: '0', width: '50%', height: '270px' }} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.409507707307!2d77.05858797504956!3d28.557463375705794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1bab98f47347%3A0xf5c8c34007fd928c!2sDr%20Surbhi%20Rustagi%20Clinic!5e0!3m2!1sen!2sin!4v1721935966439!5m2!1sen!2sin" frameborder="0" allowFullScreen></iframe>
+                        <iframe style={{ border: '0', width: '50%', height: '270px' }} title="Location2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.409507707307!2d77.05858797504956!3d28.557463375705794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1bab98f47347%3A0xf5c8c34007fd928c!2sDr%20Surbhi%20Rustagi%20Clinic!5e0!3m2!1sen!2sin!4v1721935966439!5m2!1sen!2sin" frameborder="0" allowFullScreen></iframe>
                 
                     </div>
                 </div>
@@ -63,7 +63,7 @@ function Contact(){
 
                 <div className="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
 
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc5zBrdD4SUC7mxzXiZjgoi-0Y8L3BziPEKMNE_Yt7Getq9KA/viewform?embedded=true" width="640" height="940" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <iframe title="QueryGoogleForm" src="https://docs.google.com/forms/d/e/1FAIpQLSc5zBrdD4SUC7mxzXiZjgoi-0Y8L3BziPEKMNE_Yt7Getq9KA/viewform?embedded=true" width="640" height="940" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
                 </div>
 
