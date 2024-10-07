@@ -29,11 +29,34 @@
     background-color: #94c045;
     color: white;
   }
+
+  .nav-button-disabled, .nav-button-disabled:hover {
+    color: #1c1f18;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  
   
   .calendar-grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 5px;
+  }
+
+  .week-day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    color: #1c1f18;
+    background-color: white;
+
   }
   
   .day, .empty-day {
@@ -62,5 +85,14 @@
   .selected {
     background-color: #1c1f18;
     color: white;
+  }
+
+  .disabled {
+    color: #d5d1d1;
+  }
+
+  .disabled:hover {
+    color: #d5d1d1;
+    background-color: white ;
   }
   

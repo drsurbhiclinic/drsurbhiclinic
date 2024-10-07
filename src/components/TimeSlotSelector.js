@@ -1,10 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import '../css/timeSlotSelector.css';
 
 function TimeSlotSelector({timeSlots, selectedTimeSlot, setSelectedTimeSlot, errors, setErrors}) {
 
   const handleSlotClick = (slot) => {
-    console.log(slot)
     setSelectedTimeSlot(slot);
     if(setErrors && errors) {
         setErrors({
@@ -12,14 +11,7 @@ function TimeSlotSelector({timeSlots, selectedTimeSlot, setSelectedTimeSlot, err
             'timeSlot': ""
         })
     }
-    timeSlots.forEach((s) => {
-        console.log(slot === s)
-    })
   };
-
-  useEffect(() => {
-    console.log(selectedTimeSlot)
-  })
 
   return (
     <div className="time-slot-container">

@@ -53,4 +53,5 @@ module.exports = {
             description: 'Cervical cancer is a cancer arising from the cervix or in the any layer of the wall of the cervix. HPV vaccines protect against many of the risks that can cause this cancer.'
         }
     ],
+    'PHONE': "9871051252"
 }
