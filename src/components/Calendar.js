@@ -15,7 +15,7 @@ function Calendar({selectedDate, setSelectedDate}) {
     }    
   };
 
-  const isMonthGreaterThanToday = today.getMonth() < selectedDate.getMonth()
+  const isMonthGreaterThanToday = today.getYear() < selectedDate.getYear() || (today.getYear() === selectedDate.getYear() && today.getMonth() < selectedDate.getMonth())
   const changeMonth = (event, direction) => {  
     event.preventDefault()
     if(direction === 1 || isMonthGreaterThanToday) {

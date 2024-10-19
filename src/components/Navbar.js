@@ -23,6 +23,7 @@ function Navbar() {
                 <li><a className={ title === "/services"? "active": ""} href="/services">Services</a></li>
                 <li><a className={ title === "/stories"? "active": ""} href="/stories">Patient Stories</a></li>
                 <li><a className={ title === "/contact"? "active": ""}href="/contact">Contact Us</a></li>
+                <li><a className={ title === "/appointment"? "active": ""}href="/appointment">Book Appointment</a></li>
                 <li><a className="getstarted" href="/about">Get Started</a></li>
                 </ul>
                 <i className="bi bi-list mobile-nav-toggle" onClick={expandNavbar}></i>
