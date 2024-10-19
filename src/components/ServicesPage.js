@@ -11,7 +11,7 @@ function ServicesPage() {
                     <div className="breadcrumb-hero">
                     <h2>Services</h2>
                     <p>
-                    Dr. Surbhi is dedicated to providing comprehensive gynecological services tailored to meet the unique needs of every woman at every stage of life. Whether you're seeking routine care, specialized treatments, or support through pregnancy and childbirth, she combines advanced medical knowledge with a patient-centered approach to ensure your health and well-being. Explore our range of services designed to empower you with the best care possible.
+                    Dr. Surbhi's clinic provides personalized gynecological services, including routine care, specialized treatments, pregnancy support, and comprehensive women's healthcare. Explore our range of services designed to empower you with the best care possible.
                     </p>
                     </div>
                 </div>

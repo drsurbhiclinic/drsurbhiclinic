@@ -2,7 +2,7 @@ module.exports = {
     'SERVICES': [
         {
             imgUrl:'assets/img/antenatalCare.jpg',
-            title:'Antinatal Care',
+            title:'Antenatal Care',
             description:'We offer comprehensive antenatal care to monitor your health and your baby\'s development throughout pregnancy. Regular check-ups, prenatal screenings, and educational sessions prepare you for a smooth delivery and a healthy postpartum recovery.'
         },
         {
