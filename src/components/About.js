@@ -39,17 +39,12 @@ function About() {
                 <div className="col-lg-6 pt-3 pt-lg-0 content">
                     <h3>Distinguished specialist in Obstetrics and Gynaecology. </h3>
                     <p className="fst-italic">
-                    Renowned for her commitment to ensuring the best possible outcomes for her patients, Dr. Surbhi has built a reputation for her emphasis on normal deliveries whenever possible. She employs fast and efficient surgical techniques when necessary, always prioritizing less invasive options and first exploring treatment with medicines before considering surgical interventions.
-                    
-                    Throughout her extensive career, Dr. Surbhi has encountered and expertly managed a multitude of extraordinary cases. Her deep clinical knowledge and seasoned experience have enabled her to diagnose and treat complex conditions with remarkable success. 
-                    
-                    In addition to her expertise in general obstetrics and gynaecology, she is also skilled in the treatment of infertility. Her proficiency in this area is reflected in her impressive success rates, providing hope and effective solutions for many couples aspiring to start or expand their families. 
-                    Dr. Surbhi's dedication, combined with her extensive experience and compassionate approach, makes her a trusted and esteemed figure in her field, consistently delivering exceptional care and support to her patients.
+                    Dr. Surbhi is a dedicated obstetrician and gynecologist known for prioritizing normal deliveries and less invasive treatments. With expertise in managing complex cases, she excels in both general obstetrics and infertility care, achieving impressive success rates. Her vast experience, compassionate approach, and deep clinical knowledge ensure exceptional care, making her a trusted professional who consistently supports her patients with personalized, effective solutions.
                     </p>
                     <p> <b> You are welcome to seek consultation and make appointments at the following locations </b> </p>
                     <ul>
                     <li><i className="bx bx-check-double"></i> D-116 Raj Nagar-2, Palam Colony, New Delhi - 110077</li>
-                    <li><i className="bx bx-check-double"></i> 321, Naval Technical Officers CGHS Ltd, Opposite Taj Vivanta, Dwarka sector 21, New Delhi - 110077</li>
+                    <li><i className="bx bx-check-double"></i> 321, Naval Technical Officers CGHS Ltd, Opposite Taj Vivanta, Dwarka sector 22, New Delhi - 110077</li>
                     <li><i className="bx bx-check-double"></i> Online consultation available through Whatsapp.</li>
                     </ul>
                 </div>

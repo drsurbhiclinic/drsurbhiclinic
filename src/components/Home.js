@@ -29,7 +29,7 @@ function Home() {
                     <p> You are welcome to seek consultation and make appointments at the following locations </p>
                     <ul>
                     <li><i className="bx bx-check-double"></i> D-116 Raj Nagar-2, Palam Colony, New Delhi - 110077</li>
-                    <li><i className="bx bx-check-double"></i> 321, Naval Technical Officers CGHS Ltd, Opposite Taj Vivanta, Dwarka sector 21, New Delhi - 110077</li>
+                    <li><i className="bx bx-check-double"></i> 321, Naval Technical Officers CGHS Ltd, Opposite Taj Vivanta, Dwarka sector 22, New Delhi - 110077</li>
                     <li><i className="bx bx-check-double"></i> Online consultation available through Whatsapp.</li>
                     </ul>
                     <p>

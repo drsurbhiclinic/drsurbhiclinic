@@ -357,7 +357,8 @@ h6 {
   width: 100%;
   height: 80vh;
   background: url("../img/Background.jpg") top center;
-  /* background-size: cover; */
+  background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
   margin-top: 10vh;
   margin-bottom: -140px;
