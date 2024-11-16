@@ -14,6 +14,7 @@ function Navbar() {
         <header id="header" className="fixed-top d-flex align-items-center">
             <div className="container d-flex align-items-center justify-content-between">
             <div className="logo">
+                <img src="assets/img/logo.png"></img>
                 <h1 className="text-light"><a href="/">Dr Surbhi Rustagi</a></h1>
             </div>
             <nav id="navbar" className="navbar">
