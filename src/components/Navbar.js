@@ -16,7 +16,7 @@ function Navbar() {
             <div className="logo">
                 <h1 className="text-light">
                     <a href="/">
-                        <span style="margin-right: 10px;"> 
+                        <span style={{marginRight : "10px"}}> 
                             <img src="assets/img/logo.png" alt="logo" />
                         </span>
                         Dr Surbhi Rustagi
