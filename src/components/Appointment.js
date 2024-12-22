@@ -2,6 +2,7 @@ import Constants from '../Constants';
 import Calendar from './Calendar';
 import TimeSlotSelector from './TimeSlotSelector';
 import { useState } from 'react';
+import MetaDecorator from './MetaDecorator';
 
 function Appointment() {
 
@@ -66,6 +67,7 @@ function Appointment() {
     
     return (
         <main id="main">
+            <MetaDecorator title="Dr Surbhi Clinic - Appointment" description="Book an appointment with Dr Surbhi at the Palam Clinic Mon - Sat 11:00 a.m to 3 p.m and 5:00 p.m. to 9:00 p.m. and at Dwarka Clinic Mon - Sat 9:00 a.m. to 10 a.m."/>
             {/* ======= Breadcrumbs ======= */}
             <section id="breadcrumbs" className="breadcrumbs">
                 <div className="breadcrumb-hero">
