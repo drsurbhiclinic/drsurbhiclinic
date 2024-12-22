@@ -1,5 +1,6 @@
 import ServicesList from './ServicesList'
 import {SERVICES} from "../Constants";
+import MetaDecorator from './MetaDecorator';
 
 function ServicesPage() {
     return (
