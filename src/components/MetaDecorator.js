@@ -1,3 +1,5 @@
+import {Helmet} from "react-helmet";
+
 const MetaDecorator = (title, description) => {
     return (
     <Helmet>
@@ -5,11 +7,6 @@ const MetaDecorator = (title, description) => {
         <meta name="description" content={description}/> 
     </Helmet>
     )
-}
-
-MetaDecorator.propTypes = {
-    title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired
 }
 
 export default MetaDecorator;
