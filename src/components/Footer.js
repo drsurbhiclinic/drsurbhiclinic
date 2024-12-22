@@ -35,7 +35,7 @@ function Footer() {
             </p>
 
             <div className="social-links">
-              <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
+              {/* <a href="#" className="facebook"><i className="bi bi-facebook"></i></a> */}
               <a href="https://instagram.com/drsurbhiclinic" className="instagram"><i className="bi bi-instagram"></i></a>
             </div>
           </div>
