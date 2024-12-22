@@ -2,6 +2,7 @@ import Constants from '../Constants';
 import Calendar from './Calendar';
 import TimeSlotSelector from './TimeSlotSelector';
 import { useState } from 'react';
+import MetaDecorator from './MetaDecorator';
 
 function Appointment() {
 

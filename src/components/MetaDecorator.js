@@ -2,8 +2,7 @@ import {Helmet} from "react-helmet";
 
 const MetaDecorator = (title, description) => {
     return (
-    <Helmet>
-        <title> {title} </title>
+    <Helmet title={title}>
         <meta name="description" content={description}/> 
     </Helmet>
     )
