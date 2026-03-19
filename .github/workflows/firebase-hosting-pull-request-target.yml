@@ -1,0 +1,26 @@
+name: Deploy to Firebase Hosting on dependabot PR
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  deploy:
+    if: ${{ github.actor == 'dependabot[bot]' || github.event.pull_request.head.repo.full_name == github.repository }}
+    runs-on: ubuntu-latest
+
+    steps:
+      # ✅ Safe checkout (base branch)
+      - uses: actions/checkout@v4
+
+      # ✅ Deploy using secrets
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_DRSURBHICLINIC }}
+          projectId: drsurbhiclinic
+
+      # ⚠️ Optional: checkout PR code AFTER secrets
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
