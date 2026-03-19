@@ -1,9 +1,11 @@
 import ServicesList from './ServicesList'
 import {SERVICES} from "../Constants";
+import MetaDecorator from './MetaDecorator';
 
 function ServicesPage() {
     return (
         <main id="main">
+            <MetaDecorator title="Dr Surbhi Clinic - Services" description="Dr. Surbhi's clinic provides personalized gynecological services, including routine care, specialized treatments, pregnancy support, and comprehensive women's healthcare. Explore our range of services designed to empower you with the best care possible." />
             {/* ======= Breadcrumbs ======= */}
             <section id="breadcrumbs" className="breadcrumbs">
                 <div className="breadcrumb-hero">

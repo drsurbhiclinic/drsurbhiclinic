@@ -1,18 +1,19 @@
 import Stats from "./Stats"
 import ServicesList from "./ServicesList";
 import {SERVICES} from '../Constants';
+import MetaDecorator from "./MetaDecorator";
 
 function About() {
     return (
         <main id="main">
-
+            <MetaDecorator title="Dr Surbhi Clinic - About" description="Dr. Surbhi Rustagi is a highly experienced Obstetrician & Gynecologist with 25 years in the field."/>
             <section id="breadcrumbs" className="breadcrumbs">
             <div className="breadcrumb-hero">
                 <div className="container">
                 <div className="breadcrumb-hero">
                     <h2>About</h2>
                     <p> 
-                        Dr. Surbhi Rustagi is a highly experienced Obstetrician and Gynaecologist with 25 years in the field. She treats all her patients with compassion & has successfully managed numerous complex cases , making her a trusted expert in her field. 
+                        Dr. Surbhi Rustagi is a highly experienced Obstetrician and Gynecologist with 25 years in the field. She treats all her patients with compassion & has successfully managed numerous complex cases , making her a trusted expert in her field. 
                     </p>
                     </div>
                 </div>

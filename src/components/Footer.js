@@ -34,12 +34,10 @@ function Footer() {
               <strong>Email:</strong> <a href="mailto:drsurbhirustagiclinic@gmail.com">drsurbhirustagiclinic@gmail.com</a><br/>
             </p>
 
-            { /*<div className="social-links">
-              <a href="#" className="twitter"><i className="bi bi-twitter"></i></a>
-              <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
-              <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
-              <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a>
-            </div>*/ }
+            <div className="social-links">
+              {/* <a href="#" className="facebook"><i className="bi bi-facebook"></i></a> */}
+              <a href="https://instagram.com/drsurbhiclinic" className="instagram"><i className="bi bi-instagram"></i></a>
+            </div>
           </div>
 
           <div className="col-lg-3 col-md-6 footer-newsletter">

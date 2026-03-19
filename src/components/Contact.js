@@ -1,7 +1,9 @@
+import MetaDecorator from "./MetaDecorator";
+
 function Contact(){
     return (
         <main id="main">
-
+            <MetaDecorator title="Dr Surbhi Clinic - Contact Us" description="Contact us at +91 9871051252. We have two locations in West Delhi. For queries regarding appointments and online consultations, Dr. Surbhi is also available on Whatsapp."/>
             {/* ======= Breadcrumbs ======= */}
             <section id="breadcrumbs" className="breadcrumbs">
             <div className="breadcrumb-hero">
